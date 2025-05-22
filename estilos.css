@@ -7,7 +7,7 @@ body {
   margin: 0;
 }
 
-/* Header */
+
 header {
   display: flex;
   justify-content: flex-start;
@@ -52,7 +52,7 @@ nav a:hover {
   opacity: 1;
 }
 
-/* Contenedor principal */
+
 #box {
   display: flex;
   gap: 15px;
@@ -62,7 +62,7 @@ nav a:hover {
   margin: 0 auto;
 }
 
-/* Columnas */
+
 #railLeft,
 #middle,
 aside {
@@ -88,7 +88,7 @@ aside {
   padding: 15px;
 }
 
-/* Sección de factura flotante */
+
 .info-container {
   margin-bottom: 20px;
 }
@@ -191,7 +191,7 @@ td {
   background: #357abd;
 }
 
-/* Sección lateral izquierda */
+
 .alertLeft {
   background: #f8f9fa;
   padding: 15px;
@@ -231,7 +231,7 @@ td {
   font-weight: 600;
 }
 
-/* NAVEGACIÓN VERTICAL */
+
 .great ul {
   list-style: none;
   padding: 0;
@@ -267,7 +267,7 @@ td {
   font-weight: 500;
 }
 
-/* MENSAJES RECIENTES - MUY COMPACTO */
+
 #recentMessageList {
   margin-top: 8px;
 }
@@ -309,7 +309,7 @@ td {
   text-decoration: underline;
 }
 
-/* Resto de estilos */
+
 .chNumber {
   font-size: 1.5rem;
   font-weight: bold;
@@ -363,7 +363,7 @@ td {
   text-decoration: underline;
 }
 
-/* Responsive */
+
 @media (max-width: 1024px) {
   #box {
     flex-direction: column;
